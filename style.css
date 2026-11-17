@@ -1,0 +1,215 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Trebuchet MS';
+    letter-spacing: 2px; 
+    background-color: rgb(237, 229, 216);   
+
+    color: rgb(49, 28, 7);
+
+}
+.main-div
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header
+{
+    background-color: rgb(49, 28, 7);
+    color: white;
+    padding: 10px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header-left
+{
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-left a
+{
+    color: antiquewhite;
+}
+nav span a
+{
+    text-decoration: none;
+    padding: 3px;
+    margin-right: 100px;
+    color: antiquewhite;
+}
+
+nav span a:hover
+{
+    border-bottom: 1px solid antiquewhite;
+}
+header .header-right
+{
+    display: flex;
+    color: antiquewhite;
+}
+.header-right>div
+{
+    margin:8px;
+}
+.header-right a{
+    color: rgba(48, 5, 5, 0.9);
+    background-color: antiquewhite;
+    padding: 5px 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.bi-person-circle
+{
+    margin: 3px;
+    font-size: 25px;
+}
+
+.hero-section
+{
+    background-color: rgb(248, 237, 224);
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: 30px 30px 0px 30px;
+    margin: 30px;
+    border: 1px solid black;
+}
+.bi-circle-fill
+{
+    font-size: 8px;
+
+}
+.dot-daily
+{
+    font-size: 12px;
+    background-color: rgb(49, 28, 7);
+    border-radius: 50px;
+    width: 30%;
+    color: antiquewhite;
+    padding: 8px 10px;
+    font: 10px;
+    margin: 2px 1px 20px 1px;
+}
+
+.main-middle-div .little-moment
+{
+    color: rgb(49, 28, 7);
+
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.main-middle-div .next
+{
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.explore-find-menu{
+    display: flex;
+    gap: 30px;
+}
+.explore
+{
+    background-color: rgb(49, 28, 7);
+    padding: 10px 20px;
+    color: antiquewhite;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.statistics-div
+{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    gap: 150px;
+}
+.statistics-div p
+{
+    font-size: 18px;
+}
+.statistics-div .sub .h
+{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.explore:hover
+{
+    background-color: rgb(49, 28, 7);
+    font-weight: bold;
+}
+.find-menu
+{
+    padding: 10px 20px;
+    color: rgb(49, 28, 7);
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.find-menu:hover
+{
+    background-color: rgb(49, 28, 7);
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    color: antiquewhite;
+}
+.hero-section-right
+{
+    position: relative;
+    border: 1px solid saddlebrown;
+    height: 65%;
+
+}
+
+.hero-section-right img
+{
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 2px 2px 10px black;
+}
+
+.message-card
+{
+    position: absolute;
+    background-color: rgba(49, 28, 7,0.9);
+    color: antiquewhite;
+    border-radius: 10px 1px 10px 1px;
+    display: flex;
+    padding: 10px;
+    bottom: -30px;
+    left: -100px;
+}
+.bi-cup
+{
+    font-size: 40px;
+    background-color: rgba(250, 235, 215,0.8);
+    color: rgb(49, 28, 7);
+    padding: 2px 2px 0px 8px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.specialty-abrabica-message-card
+{
+    font-size: 12px;
+    line-height: 20px;
+}
+.message-heading
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+    color: rgba(48, 5, 5, 0.8);
+}       
